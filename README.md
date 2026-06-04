@@ -112,7 +112,7 @@ After the script finishes, open two terminals.
 
 ```bash
 
-ssh -L 8000:localhost:80 -L 8080:localhost:8080 -p <port> <username>@<vm\_ip>
+ssh -L 8000:localhost:80 -L 8080:localhost:8080 -p <port> <username>@<vm_ip>
 
 ```
 
@@ -126,7 +126,7 @@ Replace:
 
 - `<username>` with your VM username
 
-- `<vm\_ip>` with your VM IP address
+- `<vm_ip>` with your VM IP address
 
 
 
