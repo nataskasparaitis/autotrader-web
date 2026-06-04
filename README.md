@@ -1,4 +1,4 @@
-\# AutoTrader
+# AutoTrader
 
 
 
@@ -6,41 +6,41 @@ Car listing website built with Laravel.
 
 
 
-\## Features
+## Features
 
 
 
-\- Car catalog with 100 seeded cars
+- Car catalog with 100 seeded cars
 
-\- User favorites system
+- User favorites system
 
-\- Admin CRUD for cars and categories
+- Admin CRUD for cars and categories
 
-\- Authentication and authorization
+- Authentication and authorization
 
-\- 10,000+ seeded users
+- 10,000+ seeded users
 
-\- Docker-based deployment
-
-
-
-\## Requirements
+- Docker-based deployment
 
 
 
-\- Ubuntu 24.04 VM (or any Linux distribution with Docker installed)
-
-\- Git
-
-\- SSH access to the VM
+## Requirements
 
 
 
-\## Setup \& Deployment
+- Ubuntu 24.04 VM (or any Linux distribution with Docker installed)
+
+- Git
+
+- SSH access to the VM
 
 
 
-\### 1. Copy run.sh
+## Setup & Deployment
+
+
+
+### 1. Copy run.sh
 
 
 
@@ -48,7 +48,7 @@ From this repository copy the run.sh file to your VM
 
 
 
-\### 2. Make the Setup Script Executable
+### 2. Make the Setup Script Executable
 
 
 
@@ -60,7 +60,7 @@ chmod +x run.sh
 
 
 
-\### 3. Run the Setup Script
+### 3. Run the Setup Script
 
 
 
@@ -68,13 +68,13 @@ This will:
 
 
 
-\- Install Docker (if needed)
+- Install Docker (if needed)
 
-\- Build and start containers
+- Build and start containers
 
-\- Run database migrations
+- Run database migrations
 
-\- Seed the database
+- Seed the database
 
 
 
@@ -90,15 +90,15 @@ The script will create:
 
 
 
-\- 10,000 users
+- 10,000 users
 
-\- 100 cars
+- 100 cars
 
-\- 10 categories
+- 10 categories
 
 
 
-\## Accessing the Application
+## Accessing the Application
 
 
 
@@ -106,7 +106,7 @@ After the script finishes, open two terminals.
 
 
 
-\### Terminal 1: Create an SSH Tunnel
+### Terminal 1: Create an SSH Tunnel
 
 
 
@@ -122,15 +122,15 @@ Replace:
 
 
 
-\- `<port>` with your VM SSH port
+- `<port>` with your VM SSH port
 
-\- `<username>` with your VM username
+- `<username>` with your VM username
 
-\- `<vm\_ip>` with your VM IP address
+- `<vm\_ip>` with your VM IP address
 
 
 
-\### Terminal 2: Open the Application
+### Terminal 2: Open the Application
 
 
 
@@ -138,7 +138,7 @@ Keep the SSH tunnel running and open your browser.
 
 
 
-\#### Website
+#### Website
 
 
 
@@ -150,7 +150,7 @@ http://localhost:8000
 
 
 
-\#### phpMyAdmin
+#### phpMyAdmin
 
 
 
@@ -162,19 +162,19 @@ http://localhost:8080
 
 
 
-\## Default Admin Account
+## Default Admin Account
 
 
 
-\*\*Email:\*\* `admin@gmail.com`
+**Email:** `admin@gmail.com`
 
 
 
-\*\*Password:\*\* `adminadmin`
+**Password:** `adminadmin`
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -208,21 +208,21 @@ database/
 
 
 
-\## Technologies
+## Technologies
 
 
 
-\- Laravel 11
+- Laravel 11
 
-\- PHP 8.5
+- PHP 8.5
 
-\- MySQL 5.7
+- MySQL 5.7
 
-\- Docker \& Docker Compose
+- Docker & Docker Compose
 
-\- Nginx
+- Nginx
 
-\- Custom CSS (responsive design)
+- Custom CSS (responsive design)
 
-\- JavaScript (ES6) for AJAX favorites
+- JavaScript (ES6) for AJAX favorites
 
