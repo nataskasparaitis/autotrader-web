@@ -56,7 +56,7 @@ fi
 # ----------------------------------------------------------------------
 if [ ! -d ~/web ]; then
     echo "Cloning repository..."
-    git clone https://github.com/MantasVI/web.git ~/web
+    git clone https://github.com/nataskasparaitis/autotrader-web.git ~/web
 else
     echo "Repository already exists, pulling latest changes..."
     cd ~/web && git pull
